@@ -1,6 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Bike Rental Demand Prediction
+> This project aims to build a predictive model for bike rental demand based on historical data, using various factors like weather, season, and holiday status. The objective is to assist the bike rental company in making informed decisions about inventory management and resource allocation.
 
 ## Table of Contents
 * [General Info](#general-information)
