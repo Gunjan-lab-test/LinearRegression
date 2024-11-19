@@ -7,45 +7,43 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The bike rental demand prediction project focuses on analyzing factors that influence bike rental demand. Accurate prediction of bike rentals is crucial for managing inventory and maximizing user satisfaction by ensuring availability. This project uses a dataset of bike rental records that includes various attributes like weather, season, time, and user types.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- **Background**: Many urban areas have adopted bike-sharing systems as a solution for congestion and pollution. However, fluctuating demand can lead to overstocked or understocked bike stations, affecting customer experience.
+- **Business Problem**: The project aims to solve the business problem of optimizing bike inventory by predicting daily rental demand based on factors like weather, season, and holiday status.
+- **Dataset**: The dataset used includes bike rental records with features such as casual, registered, season, temperature, humidity, windspeed, workingday, and holiday.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Features which positively derive the bike rental
+- year
+- workingday
+- temperature
+- winter
+- Saturday
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Features which negatively derive the bike rental
+- humidity
+- windspeed
+- light_snow
+
+Top 3 predictors of bike rental ( in order of absolute value of coefficients )
+- Temperature
+- humidity
+- year
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- numpy: 1.26.4
+- seaborn: 0.13.2
+- statsmodels.api: 0.14.2
+- sklearn: 1.4.2
+- pandas: 2.2.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+This project is inspired by a US bike-sharing provider BoomBikes.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [Gunjan-lab-test@githubusername] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
